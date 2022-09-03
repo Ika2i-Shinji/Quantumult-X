@@ -1,0 +1,3 @@
+#作者：Hausd0rff
+hostname = i.xinyulib.com.cn
+^https?:\/\/i\.xinyulib\.com\.cn\/api\/querytoken.+ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/XinYuLibraryProCrack.js
