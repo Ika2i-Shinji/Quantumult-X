@@ -1,2 +1,11 @@
-HOST-KEYWORD,umeng,Advertising
+HOST,corp.youdao.com,Advertising
+HOST-SUFFIX,sdk-log-inter.youdao.com,Advertising
+HOST-SUFFIX,shared.youdao.com,Advertising
+HOST-SUFFIX,tb060x.corp.youdao.com,Advertising
+HOST-SUFFIX,tb104x.corp.youdao.com,Advertising
+HOST-SUFFIX,union.youdao.com,Advertising
+HOST-SUFFIX,ydpushserver.youdao.com,Advertising
+HOST-SUFFIX,ydqzkj.com,Advertising
 HOST-SUFFIX,gorgon.youdao.com,Advertising
+HOST-KEYWORD,umeng,Advertising
+
