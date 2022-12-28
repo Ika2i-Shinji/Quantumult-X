@@ -2,7 +2,7 @@
 
 [rewrite_local]
 
-^https:\/\/www\.xmind\.cn\/_res\/devices url script-response-body https://github.com/Ika2i-Shinji/Quantumult-X/new/main/Script/XMind.js
+https?:\/\/.*\.xmind\..*\/_res\/devices url script-response-body https://github.com/Ika2i-Shinji/Quantumult-X/new/main/Script/XMind.js
 
 [mitm] 
 hostname = www.xmind.cn
