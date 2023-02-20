@@ -1,9 +1,10 @@
 /*
+author:langkhach270389
 [MITM]
 hostname = api.craft.do
 
 [rewrite_local]
-^https://api\.craft\.do/auth/v\d/profile$ url script-response-bodyhttps://raw.githubusercontent.com/langkhach270389/Surge-LK/new/scripts/langkhach/craft.js
+^https://api\.craft\.do/auth/v\d/profile$ url script-response-body https://raw.githubusercontent.com/Ika2i-Shinji/Quantumult-X/main/Script/Craft.js
 */
 
 var homie = JSON.parse($response.body)
