@@ -4,7 +4,7 @@ author：langkhach270389
 hostname = api.busuu.com
 
 [rewrite_local]
-^https:\/\/api\.busuu\.com\/users\/me* url script-response-body https://raw.githubusercontent.com/langkhach270389/Quantumult-X-LK/master/Scripts/langkhach/busuu.js
+^https:\/\/api\.busuu\.com\/users\/me* url script-response-body https://raw.githubusercontent.com/Ika2i-Shinji/Quantumult-X/main/Script/Busuu.js
 */
 
 var obj = JSON.parse($response.body);
