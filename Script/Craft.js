@@ -1,11 +1,9 @@
 /*
 [MITM]
-hostname = %APPEND% api.craft.do
+hostname = api.craft.do
 
-[Script]
-Craft = type=http-response,pattern=^https://api\.craft\.do/auth/v\d/profile$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/new/scripts/langkhach/craft.js
-
-
+[rewrite_local]
+^https://api\.craft\.do/auth/v\d/profile$ url script-response-bodyhttps://raw.githubusercontent.com/langkhach270389/Surge-LK/new/scripts/langkhach/craft.js
 */
 
 var homie = JSON.parse($response.body)
