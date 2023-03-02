@@ -1,8 +1,8 @@
 *******************************
-
+author：彭于晏
 [rewrite_local]
 
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Xmdsz.js
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/Ika2i-Shinji/Quantumult-X/main/Script/MiDiClock.js
 
 [mitm] 
 
