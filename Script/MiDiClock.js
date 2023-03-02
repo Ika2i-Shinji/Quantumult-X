@@ -1,4 +1,4 @@
-*******************************
+/*
 author：彭于晏
 [rewrite_local]
 
@@ -9,7 +9,7 @@ author：彭于晏
 hostname = buy.itunes.apple.com
 
 
-*******************************/
+*/
 
 
 var objc = JSON.parse($response.body);
