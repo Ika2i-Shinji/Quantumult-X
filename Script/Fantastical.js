@@ -1,10 +1,11 @@
 /*
 author：Cuttlefish
 
-
+[MITM]
 hostname=api.flexibits.com
 
-^https:\/\/api\.flexibits\.com\/(v1\/auth\/device|v1\/account\/details) url script-response-body https://raw.githubusercontent.com/deezertidal/private/master/js-backup/Crack/fantastical.js
+[rewrite_local]
+^https:\/\/api\.flexibits\.com\/(v1\/auth\/device|v1\/account\/details) url script-response-body https://raw.githubusercontent.com/Ika2i-Shinji/Quantumult-X/main/Script/Fantastical.js
 */
 let url = $request.url;
 const path1="v1/auth/device";
